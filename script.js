@@ -1,4 +1,10 @@
-// script.js
+
+const productCount = document.getElementById("productCount");
+const productsContainer = document.getElementById("productsContainer");
+const validationMessage = document.getElementById("validationMessage");
+const orderSummary = document.getElementById("orderSummary");
+
+
 function calculateItemAmount(price, quantity) {
     return price * quantity;
 }
